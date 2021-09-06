@@ -3,10 +3,10 @@ package parker.learningJava;
 public class Main {
 
     public static void main(String[] args) {
-        String numberAsString = "2021";
+        String numberAsString = "2021.125";
         System.out.println("numberAsString = " + numberAsString);
 
-        int number = Integer.parseInt(numberAsString);
+        double number = Double.parseDouble(numberAsString);
         System.out.println("number = " + number);
 
         numberAsString += 1;
